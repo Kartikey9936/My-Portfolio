@@ -1,0 +1,178 @@
+%-------------------------
+% Resume in Latex
+% Author: Kartikey Kesharwani
+% (Template structure based on Shakra Shamim's resume format)
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-6pt}
+}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Kartikey Kesharwani} \\ \vspace{4pt}
+    \small \faPhone\ +91-9936295866 ~
+    \href{mailto:kartikeykesharwani9936@gmail.com}{\faEnvelope\ \underline{kartikeykesharwani9936@gmail.com}} ~
+    % IMPORTANT: replace with your actual LinkedIn URL
+    \href{https://www.linkedin.com/in/kartikeykesharwani/}{\faLinkedin\ \underline{LinkedIn}} ~
+    % IMPORTANT: replace with your actual GitHub URL
+    \href{https://github.com/kartikeykesharwani}{\faGithub\ \underline{GitHub}} ~
+    \faMapMarker\ Prayagraj, Uttar Pradesh
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {National Institute of Technology, Hamirpur}{Aug 2024 -- Aug 2028}
+    {B.Tech in Electronics and Communication Engineering}{Himachal Pradesh}
+    \resumeItemListStart
+      \resumeItem{CGPA: 8.5 / 10}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.0in, label={}]
+    \small{\item{
+     \textbf{Programming Languages:} C, C++, Python, JavaScript, SQL \\
+     % \textbf{Electronics:} Digital Electronics, Analog Electronics, Microcontrollers, Sensors \& Instrumentation, Embedded Systems \\
+     % \textbf{Engineering:} Signal Processing, Communication Systems, Control Systems, Troubleshooting \& Debugging \\
+     \textbf{Frameworks \& Libraries:} NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow, PyTorch, FastAPI, Flask \\
+     \textbf{Tools \& Platforms:} Git, GitHub, Docker, CI/CD, Power BI, Excel, Arduino IDE, ESP32, MATLAB \\
+     \textbf{Soft Skills:} Leadership, Teamwork, Problem Solving
+    }}
+ \end{itemize}
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Data Analyst Intern}{Jul 2026 -- Aug 2026}
+    {InAmigos}{Remote}
+    \resumeItemListStart
+      \resumeItem{Collected, cleaned, and analyzed structured datasets using Python, SQL, and Excel.}
+      \resumeItem{Developed interactive dashboards and reports to monitor key business metrics.}
+      % \resumeItem{Performed exploratory data analysis (EDA) to uncover trends, anomalies, and actionable insights.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Google Student Ambassador}{Jul 2025 -- Dec 2025}
+    {Google Gemini}{NIT Hamirpur}
+    \resumeItemListStart
+      \resumeItem{Represented Google Gemini as a Google Student Ambassador at NIT Hamirpur.}
+      \resumeItem{Led product marketing initiatives that increased engagement and awareness for Google Gemini on campus.}
+      % \resumeItem{Acknowledged for leadership and initiative in promoting AI and tech engagement on campus.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Executive Member}{Jan 2025 -- Present}
+    {Team Vibhav, Departmental Club of ECE}{NIT Hamirpur}
+    \resumeItemListStart
+      \resumeItem{Led the Team RoboLimb project, achieving the \textbf{``Best Innovative Project Award''} for developing an AI robotic arm controlled by voice and vision.}
+    \resumeItem{Organized multiple departmental and institutional events, engaging over 350 participants across all departments.}   % \resumeItem{Coordinated a national-level hackathon, overseeing participant engagement, technical activities, and end-to-end event operations.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+  \resumeProjectHeading
+      {\textbf{RoboLimb: ML Powered Robotic Arm} $|$ \emph{YOLOv8, Vosk, OpenCV, Python, Arduino (C++)}}{}
+      \resumeItemListStart
+        \resumeItem{Deployed an offline STT pipeline using Vosk for speech recognition with NLP-based command parsing, \textbf{achieving over 95\% accuracy} without internet dependency, replacing invasive EMG/BCI interfaces for paralyzed and visually impaired users.}
+        \resumeItem{Integrated a YOLOv8 real-time object detection module on a live webcam feed to spatially localize target objects, providing bounding-box coordinates directly to an inverse kinematics solver for precise 6-DOF arm control.}
+        % \resumeItem{Constructed a comprehensive voice $\rightarrow$ vision $\rightarrow$ motion pipeline: Vosk STT $\rightarrow$ NLP command parsing $\rightarrow$ YOLOv8 detection $\rightarrow$ position estimation $\rightarrow$ motion planning $\rightarrow$ servo actuation, enabling fully autonomous object grasping.}
+      \resumeItemListEnd
+
+  \resumeProjectHeading
+      {\textbf{YouTube RAG} $|$ \emph{LangChain, FAISS, Groq LLM, FastAPI, Streamlit}}{}
+      \resumeItemListStart
+        \resumeItem{Built a production-style YouTube RAG chatbot using LangChain, FAISS, Groq LLM, FastAPI, and Streamlit to generate timestamped answers from YouTube transcripts.}
+        \resumeItem{Implemented hybrid retrieval using FAISS + BM25, combining results with Reciprocal Rank Fusion (RRF) and Cross-Encoder reranking to retrieve the top 5 relevant transcript chunks.}
+        \resumeItem{Integrated Ragas automated evaluation for Faithfulness, Context Recall, Context Precision, and Answer Relevancy, \textbf{achieving scores of 1.00, 1.00, 0.8875, and 0.8373} respectively.}
+      \resumeItemListEnd
+
+\newline
+  \resumeProjectHeading
+      {\textbf{IPL Match Prediction} $|$ \emph{Python, Scikit-Learn, Flask}}{}
+      \resumeItemListStart
+        % \resumeItem{Performed EDA on historical IPL match datasets using Pandas and Matplotlib, analyzing team performance, venue trends, run rates, wickets, and match outcomes to identify factors influencing second-innings win probability.}
+        \resumeItem{Engineered dynamic features including runs left, balls left, CRR, RRR, and wickets remaining, and trained Random Forest and Scikit-Learn classification models, \textbf{achieving 88\% accuracy} with strong precision and recall.}
+        \resumeItem{Developed and deployed a Flask REST API with an interactive web interface to serve real-time batting and bowling win probabilities from the trained ML model.}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+
+%-----------AWARDS-----------
+\section{Awards \& Achievements}
+\resumeItemListStart
+  \resumeItem{\textbf{2nd Place, Hult Prize, NIT Hamirpur} -- for developing RoboLimb, an AI-powered hardware solution integrating voice control and computer vision.}
+  \resumeItem{\textbf{Solved 200+ DSA and SQL problems} on LeetCode and GeeksforGeeks -- strengthened problem-solving skills and developed a strong understanding of data structures, algorithms, and database concepts.}
+\resumeItemListEnd
+
+\end{document}
